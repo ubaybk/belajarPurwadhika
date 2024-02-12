@@ -223,3 +223,32 @@ for (let i = 1; i <= 5; i++) {
     }
     console.log(output || i);
 }
+
+
+//Example : arr = [12, 5, 23, 18, 4, 45, 32] → {lowest : 4, highest: 45, average: 19.8xxx}
+
+function lha (arr){
+    let min = arr[0]
+    let max = arr[0]
+    for (let a1 = 0; a1 < arr.length; a1++){
+
+        if (arr[a1] < min){
+            min = arr[a1]
+        }console.log(min)
+
+        if (arr[a1] > max){
+            max = arr[a1]
+        }console.log(max)
+       
+    }
+    return {
+        min,
+        max
+    }
+}
+const nilai1 = [12,5,23,18,4,45,32]
+
+const hasil1 = lha(nilai1);
+console.log(hasil1);
+
+// bayu
