@@ -251,4 +251,4 @@ const nilai1 = [12,5,23,18,4,45,32]
 const hasil1 = lha(nilai1);
 console.log(hasil1);
 
-// bayu
+// bayu tes lagi
